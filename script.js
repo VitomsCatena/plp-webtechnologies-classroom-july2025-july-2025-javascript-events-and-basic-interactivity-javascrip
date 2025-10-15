@@ -53,7 +53,7 @@
             });
         }
 
-        // --- Live Order Cart Management Logic ---
+        // --- Live Order Cart Management  ---
         window.addToCart = function(itemId) {
             const item = menuData.find(i => i.id === itemId);
             if (!item) return;
@@ -125,7 +125,7 @@
             cartCountElement.textContent = totalItems;
         }
 
-        // --- Custom Form Validation Logic (Replacing standard alert/confirm) ---
+        // --- Custom Form Validation Logic ---
         window.validateContactForm = function(event) {
             event.preventDefault(); 
             
